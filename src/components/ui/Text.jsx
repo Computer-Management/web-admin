@@ -45,8 +45,6 @@ const Text = styled.span`
 Text.defaultProps = {
     as: 'p',
     color: colors.text[0],
-    wordBreak: 'normal',
-    userSelect: 'auto',
     cursor: 'default',
     textDecoration: 'none',
     fontSize: '16px'
