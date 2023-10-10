@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { switchProp } from 'styled-tools';
 import { colors } from '../../shared/theme/colors';
 
-export const Button = styled.button`
+const Button = styled.button`
     cursor: ${p => (p.disabled || !p.cursor ? 'default' : p.cursor)};
     opacity: ${p => (p.disabled ? 0.5 : 1)};
     padding: 4px 24px;
@@ -65,3 +65,5 @@ Button.defaultProps = {
 };
 
 Button.displayName = 'ButtonBase';
+
+export default Button;
